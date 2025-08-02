@@ -26,7 +26,7 @@ export default function HomePage() {
   return (
     <div className="flex flex-col items-center justify-center min-h-[calc(100vh-64px)] text-center bg-gray-900 text-white p-8 md:p-12">
       <div className="max-w-2xl">
-        <p className="text-xl md:text-2xl font-light text-gray-400 mb-2">Hello, I'm</p>
+        <p className="text-xl md:text-2xl font-light text-gray-400 mb-2">Hello, I&apos;m</p>
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight leading-none text-white">
           IBNU RISKI
         </h1>

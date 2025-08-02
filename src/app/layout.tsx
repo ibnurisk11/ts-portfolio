@@ -1,10 +1,8 @@
 'use client';
 
-import type { Metadata } from 'next'; // Tetap biarkan ini, meskipun tidak digunakan di sini, untuk informasi saja
 import { Inter } from 'next/font/google';
 import './globals.css';
 import Link from 'next/link';
-import Image from 'next/image';
 import { useState } from 'react';
 
 const inter = Inter({ subsets: ['latin'] });

@@ -82,9 +82,9 @@ export default function CurriculumVitaePage() {
           <p className="text-sm text-gray-500 italic">Semarang | Aug 2016 - Mar 2021</p>
           <ul className="list-disc list-inside mt-3 text-gray-700 space-y-1">
             <li>Awardee of Beasiswa Kartu Indonesia Pintar (KIP) by Ministry of Education and Culture 2016-2021</li>
-            <li>Recipient of Research Proposal Funding in the Ministry of Education and Culture's Student Creativity Program (PKM-PE) 2018, Team Leader</li>
+            <li>Recipient of Research Proposal Funding in the Ministry of Education and Culture&apos;s Student Creativity Program (PKM-PE) 2018, Team Leader</li>
             <li>3rd National Scientific Competition by Student Association Political Science Bangka Belitung University. 2018</li>
-            <li>Recipient of Innovation Proposal Funding in the Ministry of Education and Culture's Student Creativity Program (PKM-KC) 2019, Team Member</li>
+            <li>Recipient of Innovation Proposal Funding in the Ministry of Education and Culture&apos;s Student Creativity Program (PKM-KC) 2019, Team Member</li>
             <li>Blog Competition Winner at Zenius Blog Competition, 2019</li>
             <li>2nd (Runner Up) of Ideanation Innovation Competition by Ideanation x Narasi TV (244 teams and 54 universities from throughout Indonesia) 2019, Team Member</li>
             <li>Staff of Research & Development Himpunan Mahasiswa Fisika Universitas Diponegoro 2018</li>

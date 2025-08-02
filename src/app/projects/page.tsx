@@ -1,11 +1,6 @@
 import Link from 'next/link';
 import { Metadata } from 'next';
 
-export const metadata: Metadata = {
-  title: 'Ibnu Riski - Projects',
-  description: 'A collection of my work in SEO, Data Analysis, and Web Development.',
-};
-
 const projectsData = [
   {
     title: 'E-commerce Dashboard',

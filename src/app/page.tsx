@@ -9,7 +9,8 @@ import { faEnvelope, faFileArrowDown } from '@fortawesome/free-solid-svg-icons';
 const roles = [
   'Data Analyst',
   'SEO Specialist',
-  'Fullstack Developer'
+  'Fullstack Developer',
+  'Database Administrator'
 ];
 
 export default function HomePage() {
@@ -56,7 +57,7 @@ export default function HomePage() {
           <Link href="https://www.linkedin.com/in/ibnu-riski-a13107126/" className="hover:text-white transition duration-300 transform hover:scale-110">
             <FontAwesomeIcon icon={faLinkedin} className="h-8 w-8" />
           </Link>
-          <Link href="mailto:ibnurisk28@gmail.com" className="hover:text-white transition duration-300 transform hover:scale-110">
+          <Link href="mailto:ibnurisk@gmail.com" className="hover:text-white transition duration-300 transform hover:scale-110">
             <FontAwesomeIcon icon={faEnvelope} className="h-8 w-8" />
           </Link>
           <Link href="https://wa.me/6285157511698" className="hover:text-white transition duration-300 transform hover:scale-110">

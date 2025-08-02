@@ -5,7 +5,7 @@ export default function CurriculumVitaePage() {
     <div className="container mx-auto px-4 py-8 bg-gray-50 text-gray-800">
       
       {/* Header */}
-      <header id="top" className="text-center py-8 border-b border-gray-200">
+      <header id="top" className="mx-8 text-center py-8 border-b border-gray-200">
         <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900">IBNU RISKI</h1>
         <p className="text-lg text-gray-600 mt-2">Bandung, Indonesia</p>
         <p className="text-xl text-blue-600 font-bold mt-1">SEO Specialist | Data Analyst | Web Developer</p>
@@ -18,13 +18,13 @@ export default function CurriculumVitaePage() {
       </header>
 
       {/* Summary Section */}
-      <section id="summary" className="bg-white p-6 rounded-lg shadow-xl mb-6">
+      <section id="summary" className="mx-8 bg-white p-6 rounded-lg shadow-xl mb-6">
         <h2 className="text-2xl font-bold border-b-2 border-gray-200 pb-2 mb-4 text-blue-600">SUMMARY</h2>
         <p className="text-gray-700 leading-relaxed text-base">Has experience as a Database Administrator, especially in MySQL. Ibnu is currently working as SQL Database Administrator at Nabati Group specializing in Data Cleansing and Reporting. Adaptive and fast learner with strong analytical and problem-solving skills with proven ability to meet deadlines, prioritize, and consistently deliver high quality results.</p>
       </section>
       
       {/* Work Experience Section */}
-      <section id="work-experience" className="bg-white p-6 rounded-lg shadow-xl mb-6">
+      <section id="work-experience" className="mx-8 bg-white p-6 rounded-lg shadow-xl mb-6">
         <h2 className="text-2xl font-bold border-b-2 border-gray-200 pb-2 mb-4 text-blue-600">WORK EXPERIENCE</h2>
         {/* PT. Satustop Finansial Solusi (Nabati Group) */}
         <div className="mb-6 pb-4 border-b border-gray-100 last:border-b-0">
@@ -74,7 +74,7 @@ export default function CurriculumVitaePage() {
       </section>
 
       {/* Education Section */}
-      <section id="education" className="bg-white p-6 rounded-lg shadow-xl mb-6">
+      <section id="education" className="mx-8 bg-white p-6 rounded-lg shadow-xl mb-6">
         <h2 className="text-2xl font-bold border-b-2 border-gray-200 pb-2 mb-4 text-blue-600">EDUCATION</h2>
         <div>
           <h5 className="text-xl font-bold">Diponegoro University</h5>
@@ -93,7 +93,7 @@ export default function CurriculumVitaePage() {
       </section>
 
       {/* Skills & Tools Section */}
-      <section id="skills" className="bg-white p-6 rounded-lg shadow-xl mb-6">
+      <section id="skills" className="mx-8 bg-white p-6 rounded-lg shadow-xl mb-6">
         <h2 className="text-2xl font-bold border-b-2 border-gray-200 pb-2 mb-4 text-blue-600">SKILLS & TOOLS</h2>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           <div className="bg-gray-100 p-4 rounded-lg shadow-inner">
@@ -155,7 +155,7 @@ export default function CurriculumVitaePage() {
       </section>
 
       {/* International Exposure Section */}
-      <section id="international-exposure" className="bg-white p-6 rounded-lg shadow-xl mb-6">
+      <section id="international-exposure" className="mx-8 bg-white p-6 rounded-lg shadow-xl mb-6">
         <h2 className="text-2xl font-bold border-b-2 border-gray-200 pb-2 mb-4 text-blue-600">INTERNATIONAL EXPOSURE</h2>
         <ul className="list-disc list-inside mt-2 text-gray-700 space-y-2">
           <li>Silver Medalist at International Engineering Invention & Innovation Exhibition (I-Envex), Universiti Malaysia Perlis 2018 as Team Leader</li>
@@ -164,7 +164,7 @@ export default function CurriculumVitaePage() {
       </section>
 
       {/* Certification Section */}
-      <section id="certification" className="bg-white p-6 rounded-lg shadow-xl mb-6">
+      <section id="certification" className="mx-8 bg-white p-6 rounded-lg shadow-xl mb-6">
         <h2 className="text-2xl font-bold border-b-2 border-gray-200 pb-2 mb-4 text-blue-600">CERTIFICATION</h2>
         <ul className="list-disc list-inside mt-2 text-gray-700 space-y-2">
           <li>Data Science Program - Indosat ID Camp 2023 x Dicoding, Sep 2023- Dec 2023</li>

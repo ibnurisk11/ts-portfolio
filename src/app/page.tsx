@@ -35,7 +35,7 @@ export default function HomePage() {
         </p>
         
         <p className="mt-8 text-lg text-gray-300 leading-relaxed max-w-lg mx-auto">
-          I love challenging myself, solving problems with data, and learning new things. Right now, I work as a Junior Database Administrator in the Fintech industry. Before this, I spent three years in digital marketing. I&apos;m really interested in using data to solve problems in different industries, whether it's analyzing, designing, or engineering solutions.
+          I love challenging myself, solving problems with data, and learning new things. Right now, I work as a Junior Database Administrator in the Fintech industry. Before this, I spent three years in digital marketing. I&apos;m really interested in using data to solve problems in different industries, whether it&apos;s analyzing, designing, or engineering solutions.
         </p>
 
         <div className="mt-10">

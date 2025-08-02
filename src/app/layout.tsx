@@ -71,7 +71,7 @@ export default function RootLayout({
           </div>
         )}
 
-        <main className="pt-16">
+        <main className="pt-8">
           {children}
         </main>
         

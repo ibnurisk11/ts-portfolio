@@ -40,19 +40,19 @@ export default function ProjectsPage() {
   };
 
   return (
-    <div className="container mx-auto px-8 py-8 mt-16 md:mt-20">
+    <div className="container mx-auto px-8 py-8 bg-gray-900">
       
       {/* Header */}
       <header id="top" className="text-center py-5">
         <h1 className="text-4xl md:text-5xl font-extrabold text-white-900">My Projects</h1>
-        <p className="text-lg md:text-xl text-yellow-600 mt-2">A collection of my work in SEO, Data Analysis, and Web Development.</p>
+        <p className="text-lg md:text-xl text-blue-400 mt-2">A collection of my work in SEO, Data Analysis, and Web Development.</p>
       </header>
 
       {/* Projects Section */}
       <section id="projects" className="py-3 mx-8">
         <h2 className="text-2xl font-bold border-b-2 border-gray-200 pb-2 mb-4">Featured Projects</h2>
         
-        <div className="space-y-6">
+        <div className="space-y-6 mx-32 px-32">
           {projectsData.map((project, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-xl transition-transform duration-300 hover:scale-105 flex flex-col md:flex-row items-center gap-6">
               <div className="md:w-1/3">

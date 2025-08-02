@@ -136,6 +136,13 @@ export default function CurriculumVitaePage() {
             </div>
           </div>
           <div className="bg-gray-100 p-4 rounded-lg shadow-inner">
+            <h5 className="text-lg font-bold mb-2 text-gray-800">Database</h5>
+            <div className="flex flex-wrap gap-2">
+              <span className="bg-yellow-200 text-yellow-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Mysql</span>
+              <span className="bg-yellow-200 text-yellow-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">PostgreSQL</span>
+            </div>
+          </div>
+          <div className="bg-gray-100 p-4 rounded-lg shadow-inner">
             <h5 className="text-lg font-bold mb-2 text-gray-800">CSS Framework</h5>
             <div className="flex flex-wrap gap-2">
               <span className="bg-red-200 text-red-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Bootstrap</span>
@@ -149,6 +156,8 @@ export default function CurriculumVitaePage() {
               <span className="bg-indigo-200 text-indigo-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Streamlit</span>
               <span className="bg-indigo-200 text-indigo-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">CodeIgniter 3</span>
               <span className="bg-indigo-200 text-indigo-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Laravel</span>
+              <span className="bg-indigo-200 text-indigo-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Next JS</span>
+              <span className="bg-indigo-200 text-indigo-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">React JS</span>
             </div>
           </div>
         </div>

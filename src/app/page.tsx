@@ -40,7 +40,7 @@ export default function HomePage() {
 
         <div className="mt-10">
           <Link
-            href="/cv/ibnu-riski-cv.pdf" // Ganti dengan path ke file CV Anda
+            href="/cv/ibnu-riski-cv.pdf"
             download
             className="inline-flex items-center space-x-3 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105"
           >
@@ -56,10 +56,10 @@ export default function HomePage() {
           <Link href="https://www.linkedin.com/in/ibnu-riski-a13107126/" className="hover:text-white transition duration-300 transform hover:scale-110">
             <FontAwesomeIcon icon={faLinkedin} className="h-8 w-8" />
           </Link>
-          <Link href="mailto:ibnurisk11@gmail.com" className="hover:text-white transition duration-300 transform hover:scale-110">
+          <Link href="mailto:ibnurisk28@gmail.com" className="hover:text-white transition duration-300 transform hover:scale-110">
             <FontAwesomeIcon icon={faEnvelope} className="h-8 w-8" />
           </Link>
-          <Link href="https://wa.me/6281234567890" className="hover:text-white transition duration-300 transform hover:scale-110">
+          <Link href="https://wa.me/6285157511698" className="hover:text-white transition duration-300 transform hover:scale-110">
             <FontAwesomeIcon icon={faWhatsapp} className="h-8 w-8" />
           </Link>
         </div>

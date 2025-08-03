@@ -1,9 +1,6 @@
-'use client';
+import React from 'react';
 
-import Link from 'next/link';
-import Image from 'next/image';
-import  { useState} from 'react';
-
+// Data proyek yang Anda berikan
 const projectsData = [
   {
     title: 'Dashboard Marketing Sanders',
@@ -12,7 +9,7 @@ const projectsData = [
     technologies: ['Python', 'Streamlit', 'SQL'],
     linkText: 'View Project',
     linkHref: 'https://appdailyreport-uvu9t5g43xhhodyh2ueaqt.streamlit.app/',
-    imageSrc: '/images/streamlit-data-report.jpg',
+    imageSrc: 'images/streamlit-data-report.jpg', // Menggunakan placeholder karena path lokal tidak didukung
   },
   {
     title: 'Sanders Backend - Admin Panel',
@@ -21,98 +18,66 @@ const projectsData = [
     technologies: ['Python', 'Django', 'Database SQL', 'Restfull API'],
     linkText: 'View Repository',
     linkHref: 'https://github.com/ibnurisk11/sanders-dashboard',
-    imageSrc: '/images/django-sanders-backend.png',
+    imageSrc: 'images/django-sanders-backend.png', // Menggunakan placeholder karena path lokal tidak didukung
   },
 ];
 
 export default function ProjectsPage() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [selectedImage, setSelectedImage] = useState('');
-
-  const openModal = (imageSrc: string) => {
-    setSelectedImage(imageSrc);
-    setIsModalOpen(true);
-  };
-
-  const closeModal = () => {
-    setIsModalOpen(false);
-    setSelectedImage('');
-  };
-
   return (
-    <div className="container mx-auto px-8 py-8 bg-gray-900">
-      
-      {/* Header */}
-      <header id="top" className="text-center py-5">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-white-900">My Projects</h1>
-        <p className="text-lg md:text-xl text-blue-400 mt-2">A collection of my work in SEO, Data Analysis, and Web Development.</p>
-      </header>
-
-      {/* Projects Section */}
-      <section id="projects" className="py-3 mx-8">
-        <h2 className="text-2xl font-bold border-b-2 border-gray-200 pb-2 mb-4">Featured Projects</h2>
-        
-        <div className="space-y-6 mx-32 px-32">
-          {projectsData.map((project, index) => (
-            <div key={index} className="bg-white p-6 rounded-lg shadow-xl transition-transform duration-300 hover:scale-105 flex flex-col md:flex-row items-center gap-6">
-              <div className="md:w-1/3">
-                <Image 
-                  src={project.imageSrc} 
-                  alt={project.title} 
-                  width={400} 
-                  height={250} 
-                  layout="responsive"
-                  className="rounded-lg shadow-md cursor-pointer"
-                  onClick={() => openModal(project.imageSrc)} 
-                />
-              </div>
-              <div className="md:w-2/3">
-                <h5 className="text-xl md:text-2xl font-bold text-gray-800">{project.title}</h5>
-                <h6 className="text-lg text-blue-600 mb-3">{project.subtitle}</h6>
-                <p className="text-gray-700 leading-relaxed">{project.description}</p>
-                
-                <div className="mt-4">
-                  <h6 className="font-bold text-gray-800 mb-2">Technologies Used:</h6>
-                  <div className="flex flex-wrap gap-2">
+    <div className="container mx-auto px-4 py-8">
+      <h1 className="text-4xl font-bold text-center mb-10 text-white py-8">Proyek Saya</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {projectsData.map((project, index) => (
+          <div
+            key={index}
+            className="flex flex-col bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105"
+          >
+            {/* Bagian gambar proyek */}
+            <div className="relative h-48 overflow-hidden">
+              <img
+                src={project.imageSrc}
+                alt={project.title}
+                className="w-full h-full object-cover"
+              />
+            </div>
+            
+            {/* Bagian isi kartu proyek */}
+            <div className="p-6 flex-grow flex flex-col">
+              <h2 className="text-2xl font-bold text-gray-900 mb-1">{project.title}</h2>
+              <h3 className="text-sm font-medium text-gray-500 mb-4">{project.subtitle}</h3>
+              <p className="text-gray-600 mb-4 flex-grow">{project.description}</p>
+              
+              {/* Bagian yang sejajar (teknologi dan tombol) */}
+              <div className="flex items-center justify-between mt-auto">
+                <div className="flex flex-col">
+                  <span className="font-semibold text-gray-700">Teknologi:</span>
+                  <div className="flex flex-wrap gap-1 mt-1">
                     {project.technologies.map((tech, techIndex) => (
-                      <span key={techIndex} className="bg-blue-200 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">
+                      <span
+                        key={techIndex}
+                        className="bg-gray-200 text-gray-800 text-xs font-medium px-2 py-1 rounded-full"
+                      >
                         {tech}
                       </span>
                     ))}
                   </div>
                 </div>
-                <Link href={project.linkHref} className="inline-block mt-4 px-6 py-2 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 transition-colors duration-300">
+
+                {/* Tombol "Lihat Proyek" dengan efek hover */}
+                <a
+                  href={project.linkHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-4 py-2 text-sm font-medium text-white bg-blue-500 rounded-md shadow-md
+                             hover:bg-blue-600 transition-colors duration-300 transform hover:scale-105"
+                >
                   {project.linkText}
-                </Link>
+                </a>
               </div>
             </div>
-          ))}
-        </div>
-      </section>
-
-            {/* Pop-up Modal */}
-      {isModalOpen && (
-        <div 
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75 backdrop-blur-sm"
-          onClick={closeModal}
-        >
-          <div className="relative max-w-4xl max-h-full p-4" onClick={(e) => e.stopPropagation()}>
-            <button 
-              onClick={closeModal} 
-              className="absolute top-2 right-2 text-white text-3xl font-bold p-2 z-10"
-            >
-              &times;
-            </button>
-            <Image
-              src={selectedImage}
-              alt="Expanded view"
-              width={800}
-              height={600}
-              className="rounded-lg shadow-2xl"
-            />
           </div>
-        </div>
-      )}
+        ))}
+      </div>
     </div>
   );
 }

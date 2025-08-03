@@ -15,7 +15,7 @@ const projectsData = [
     title: 'Sanders Backend - Admin Panel',
     subtitle: 'Backend Development (Django)',
     description: 'A website-based backend application to assist companies across divisions.',
-    technologies: ['Python', 'Django', 'Database SQL', 'Restfull API'],
+    technologies: ['Django', 'Database SQL', 'Restfull API'],
     linkText: 'View Repository',
     linkHref: 'https://github.com/ibnurisk11/sanders-dashboard',
     imageSrc: 'images/django-sanders-backend.png', // Menggunakan placeholder karena path lokal tidak didukung

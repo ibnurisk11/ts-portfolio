@@ -8,9 +8,10 @@ import { faEnvelope, faFileArrowDown } from '@fortawesome/free-solid-svg-icons';
 
 const roles = [
   'Data Analyst',
-  'SEO Specialist',
+  'Digital Marketing Analyst',
   'Fullstack Developer',
-  'Database Administrator'
+  'Data Engineer',
+  'Database Engineer',
 ];
 
 export default function HomePage() {
@@ -36,9 +37,10 @@ export default function HomePage() {
         </p>
         
         <p className="mt-8 text-lg text-gray-300 leading-relaxed max-w-lg mx-auto">
-          I love challenging myself, solving problems with data, and learning new things. Right now, I work as a Junior Database Administrator in the Fintech industry. Before this, I spent three years in digital marketing. I&apos;m really interested in using data to solve problems in different industries, whether it&apos;s analyzing, designing, or engineering solutions.
+          With four years of experience in digital marketing and website development, I have developed a strong analytical mindset and a passion for data.<br></br>
+          My current focus is on building the technical skills required for a career in <b>Data Engineering</b> and <b>Data Science</b>. I am actively learning how to manage databases and build back-end systems to support data pipelines and ETL processes.<br></br>
+          I am driven by the challenge of solving problems and using data to generate valuable insights and architect effective solutions across various industries.
         </p>
-
         <div className="mt-10">
           <Link
             href="/cv/ibnu-riski-cv.pdf"
@@ -46,7 +48,7 @@ export default function HomePage() {
             className="inline-flex items-center space-x-3 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105"
           >
             <FontAwesomeIcon icon={faFileArrowDown} className="h-5 w-5" />
-            <span>Download CV</span>
+            <span>Download My Latest CV Here</span>
           </Link>
         </div>
 

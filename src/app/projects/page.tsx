@@ -1,6 +1,5 @@
 import React from 'react';
 
-// Data proyek yang Anda berikan
 const projectsData = [
   {
     title: 'Dashboard Marketing Sanders',
@@ -9,7 +8,7 @@ const projectsData = [
     technologies: ['Python', 'Streamlit', 'SQL'],
     linkText: 'View Project',
     linkHref: 'https://appdailyreport-uvu9t5g43xhhodyh2ueaqt.streamlit.app/',
-    imageSrc: 'images/streamlit-data-report.jpg', // Menggunakan placeholder karena path lokal tidak didukung
+    imageSrc: 'images/streamlit-data-report.jpg',
   },
   {
     title: 'Sanders Backend - Admin Panel',
@@ -18,7 +17,7 @@ const projectsData = [
     technologies: ['Django', 'Database SQL', 'Restfull API'],
     linkText: 'View Repository',
     linkHref: 'https://github.com/ibnurisk11/sanders-dashboard',
-    imageSrc: 'images/django-sanders-backend.png', // Menggunakan placeholder karena path lokal tidak didukung
+    imageSrc: 'images/django-sanders-backend.png',
   },
 ];
 

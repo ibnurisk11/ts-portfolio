@@ -43,7 +43,7 @@ export default function HomePage() {
         </p>
         <div className="mt-10">
           <Link
-            href="/cv/ibnu-riski-cv.pdf"
+            href="/cv/cv-ibnu.pdf"
             download
             className="inline-flex items-center space-x-3 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105"
           >

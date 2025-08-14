@@ -8,9 +8,8 @@ import { faEnvelope, faFileArrowDown } from '@fortawesome/free-solid-svg-icons';
 
 const roles = [
   'Data Analyst',
-  'Digital Marketing Analyst',
+  'Database Administrator',
   'Fullstack Developer',
-  'Data Engineer',
   'Database Engineer',
 ];
 

@@ -77,7 +77,7 @@ export default function RootLayout({
         
         <footer className="bg-gray-800 text-white text-center p-4 mt-auto">
           <div className="container mx-auto">
-            <p>&copy; 2025 Ibnu Riski. Semua hak dilindungi.</p>
+            <p>&copy; 2025 - Ibnu Riski</p>
           </div>
         </footer>
       </body>
